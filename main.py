@@ -45,8 +45,8 @@ if will_rain:
     message = client.messages \
         .create(
         body="It's going to rain today. Remember to bring an umbrella",
-        from_='+18592956065',
-        to='+905456685536'
+        from_='+1859295',
+        to='+9'
     )
 
     # print(message.sid)
